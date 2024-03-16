@@ -8,4 +8,3 @@ console.log(typeof valueInNumber);
 // "33" => 33
 // "33abc" => NaN
 // ture => 1; false => 0;
-
