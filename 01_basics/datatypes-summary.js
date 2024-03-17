@@ -35,6 +35,17 @@ console.log(myObj);
 
 const myFun = function () {
   console.log("hello world");
-}
+};
 
 console.log(myFun);
+
+// ***************************** Memory *********************************************************
+
+// 2 types of memories in javascript.
+//     1. stack
+//     2. heap
+
+// primitive use (Stack).
+// reference use (heap).
+
+//primitive datatypes variables changes in copy variable, non-primitive variables changes in original values.
