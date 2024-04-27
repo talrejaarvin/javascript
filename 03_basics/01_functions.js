@@ -41,24 +41,24 @@ const user = {
 };
 
 function handleObject(anyObject) {
-    console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`);
+  console.log(
+    `Username is ${anyObject.username} and price is ${anyObject.price}`
+  );
 }
 
 // handleObject(user);
 handleObject({
-    username: "Jatin",
-    price: 199
-})
+  username: "Jatin",
+  price: 199,
+});
 
 // arrays in Functions
 
 const myArr = [200, 400, 600];
 
 function returnArraySecondValue(anyArray) {
-    console.log(anyArray[1]);
+  console.log(anyArray[1]);
 }
 
 // returnArraySecondValue(myArr);
-returnArraySecondValue([
-    200, 300, 400
-])
+returnArraySecondValue([200, 300, 400]);
