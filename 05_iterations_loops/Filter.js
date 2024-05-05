@@ -13,7 +13,7 @@ const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const newNums = myNums.filter(nums => {
     return nums > 5;
 })
-console.log(newNums);
+//console.log(newNums);
 
 const books = [
     {
@@ -48,6 +48,10 @@ const books = [
     }
 ]
 
-const userBooks =  
+const userBooks =  books.filter( (bk) => {
+    return bk.publish >= 1995 && bk.genre == "Fiction";
 
-console.log(userBooks);
+    
+} );
+
+console.log(userBooks); 
